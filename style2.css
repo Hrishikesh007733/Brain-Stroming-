@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Creepy";
+    src: url("Assets/Fonts/Creepy.woff") format("woff"),
+         url("Assets/Fonts/Creepy.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Lunacy";
+    src: url("Assets/Fonts/Lunacy.woff") format("woff"),
+         url("Assets/Fonts/Lunacy.woff2") format("woff2");
+}
+
+
+html {
+    min-height: 100vh;
+    cursor: url(Assets/Cursors/Ghost.cur), auto;
+    font-family: Lunacy;
+}
+
+.page-title {
+    color: #FF6D00;
+    font-family: Creepy, serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+.level1,
+.level2,
+.level3{
+    font-family: Creepy, serif;
+    font-size: 30px;
+    font-weight: 500;
+}
